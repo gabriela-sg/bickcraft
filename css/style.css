@@ -1,0 +1,40 @@
+@import url("./global/global.css");
+@import url("./utilidade/tipografia.css"); 
+@import url("./utilidade/cores.css"); 
+
+
+@import url("./global/header.css");
+@import url("./global/footer.css");
+
+@import url("./utilidade/componentes.css");
+@import url("./home/intro.css");
+@import url("./bicicletas/bicicletas-lista.css");
+@import url("./tecnologia/tecnologia.css");
+@import url("./parceiros/parceiros.css");
+@import url("./depoimentos/depoimentos.css");
+
+@import url("./seguros/seguros.css");
+@import url("./seguros/vantagens.css");
+@import url("./seguros/perguntas.css");
+
+
+
+@import url("./termos/termos.css");
+@import url("./bicicletas/bicicletas.css");
+
+@import url("./bicicleta/bicicleta.css");
+@import url("./bicicleta/seguro-bik.css");
+
+
+@import url("./contatos/contatos.css");
+@import url("./contatos/lojas.css");
+@import url("./utilidade/formulario.css");
+@import url("./orcamento.css/orcamento.css");
+
+@import url("./utilidade/animacao.css");
+
+
+
+
+
+

@@ -1,0 +1,163 @@
+.bike-bg{
+  background-color: var(--cor-11);
+}
+.bike{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 40px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+#bicicleta .titulo p{
+  text-transform: uppercase;
+}
+.bike-imagem{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.bike-imagem img{
+  flex: 1;
+  min-width: 200px;
+}
+.bike-imagem img:first-child{
+  min-width: 100%;
+}
+
+.bike-conteudo > p{
+  margin-bottom: 32px;
+}
+
+.bike-compra{
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: 8px 12px;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-items: start;
+}
+.bike-compra a{
+  grid-row: span 2;
+}
+.bike-compra img{
+display: inline-block;
+}
+.bike-compra p{
+display: flex;
+align-items: center;
+gap: 8px;
+padding: 4px 8px;
+background-color: var(--cor-12);
+border-radius: 4px;
+}
+
+.bike-conteudo h2{
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  letter-spacing: 0.015em;
+}
+
+.bike-informacao, .bike-ficha{
+  background-color: var(--cor-12);
+  border-radius: 4px;
+  padding: 32px;
+
+}
+.bike-informacao{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+.bike-informacao h3{
+  padding: 8px 0 4px 0;
+}
+.bike-informacao img{
+  width: 24px;
+}
+.bike-ficha li{
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--cor-11);
+}
+.bike-ficha li:last-of-type{
+  border-bottom: none;
+}
+
+.bike-ficha span{
+  color: var(--cor-6);
+}
+
+@media(max-width:800px){
+  .bike{
+    grid-template-columns: 1fr;
+  }
+  .bike-imagem{
+    grid-row: 2;
+  }
+}
+
+@media(max-width:400px){
+  .bike-informacao{
+    grid-template-columns: 1fr;
+  }
+  .bike-compra{
+    grid-template-columns: 1fr;
+  }
+}
+/* ----------------------------------------------------------------- */
+.escolha{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.escolha h4{
+  margin-bottom: 40px;
+}
+.escolha-lista{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:40px;
+  overflow-x: auto;
+}
+.escolha-lista img{
+  height: 340px;
+  min-width: 280px;
+  object-fit: cover;
+}
+.escolha-lista p{
+  padding-left: 20px;
+}
+.escolha-lista h5{
+  padding-top: 12px;
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.escolha-lista h5::before{
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 12px;
+  background-color: var(--cor-p1);
+}
+.escolha-lista a:hover h5::before{
+  width: 24px;
+  transition: width 0.2s;
+}
+.escolha-lista a:hover p{
+  padding-left: 32px;
+  transition: padding-left 0.2s;
+}
+
+@media(max-width:800px){
+  .escolha{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+
+
